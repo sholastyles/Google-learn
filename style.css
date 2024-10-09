@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: "Google Sans";
+    }
+
+
+
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   /* padding: 50px; */
+   padding-top: 25px;
+   padding-left: 15px;
+   font-size: 16px;
+   font-weight: 600;
+   padding-right: 100px;
+   
+   
+}
+nav a{
+    text-decoration: none;
+    color: #585b60;
+    font-size: 1.1em;
+    
+}
+.cot{
+    margin-top: 10px;
+    margin-right: 700px;
+    word-spacing: 15px;
+}
+.nav a:hover{
+    background-color: #ced7da;
+}
+.vid video{
+ width: 140px;
+}
+
+.vid{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 30px;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+    
+
+}
+
+
+
+#img-rd{
+    border-radius: 30px;
+}
+
+.Help, .he{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    color: #30323a;
+    margin-left: 100px;
+}
+#school, #school2, #school3{
+    font-size: 36px;
+    
+}
+.product, a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+    /* border-bottom: 3px solid blue; */
+    padding-left: 8px;
+    color: #2d2e30;
+    
+    
+    
+}
+.product:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0 ,0.4);
+    border-radius: 10px;
+    /* padding: ; */
+    /* border-bottom: 1px solid; */
+    
+    /* height: 200px; */
+    
+    /* margin-top: 50px; */
+    /* border-bottom: 10px; */
+    /* padding-bottom: -50px; */
+    /* padding-left: 10px; */
+    /* padding-bottom: 10px; */
+    
+    
+}
+.caro{
+    border-bottom: 1px solid rgb(211, 207, 207);
+    padding-bottom: 25px;
+    padding-right: 130px;
+    color: rgb(67, 67, 204);
+}
+.div, h4{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 18px;
+}
